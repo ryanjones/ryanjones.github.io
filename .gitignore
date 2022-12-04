@@ -8,6 +8,7 @@
 !.commitlintrc.json
 !.versionrc.json
 !.stylelintrc.json
+!.ruby-version
 
 # bundler cache
 _site
