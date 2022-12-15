@@ -6,7 +6,7 @@ description: Everyone has inherited a codebase that was in dire need of a re-wri
 ---
 
 Everyone has inherited a codebase that was in dire need of a re-write (at least a portion of it). If you haven't, consider yourself one of the lucky
-few. I was at the local [yegrb](www.yegrb.com) meetup a few nights ago and there were a bunch of ideas being thrown around. I brought
+few. I was at the local [yegrb](https://www.yegrb.com) meetup a few nights ago and there were a bunch of ideas being thrown around. I brought
 up a few of the methods that we used to improve our codebase(s). It's been a long trek at AMA, but we're miles ahead of where we
 were a year ago.
 
