@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "RyanonRails.com is dead, long live ryanjones.io!"
 date: 2014-04-27 11:26
-comments: false
 categories: General
 ---
 

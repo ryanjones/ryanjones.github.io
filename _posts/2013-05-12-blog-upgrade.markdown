@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Blog upgrade!"
 date: 2013-05-12 15:20
-layout: post
-comments: false
 categories: General
 ---
 

@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "Avoiding Forks with Gem Extensions"
 date: 2014-10-27 19:48
-comments: false
 categories: [Ruby, Rails, Gems, Forks]
 description: Gems are one of the best things of the Ruby ecosystem. There's pretty much a gem for everything. But what happens..
 ---
