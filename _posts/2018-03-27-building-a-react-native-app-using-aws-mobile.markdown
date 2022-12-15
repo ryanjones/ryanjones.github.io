@@ -24,6 +24,8 @@ What we hope to achieve:
 
 Let’s start with an architecture diagram to figure out what we’re going to build. Here’s what we’re going to build in Part 1 (I’ll continue to add to it throughout the series as we add more services):
 
+![](/assets/img/medium/rn_1.png)
+
 This series assumes you have some basic understanding of React Native, if not, head over [here](https://facebook.github.io/react-native/docs/getting-started.html) to build an app with Expo. You’ll also need to set up your development environments under the “Building Project with Native Code tab”. We’re not going to use Expo in this tutorial due to various [limitations](https://levelup.gitconnected.com/how-i-ditched-expo-for-pure-react-native-fc0375361307).
 
 We’re going to get started using [create-react-native-app](https://github.com/react-community/create-react-native-app). create-react-native-app is a command line utility which allows us to get a react native app up and running really quickly. It handles all the configuration and setup for the react native app. By default it sets up the app using Expo (for basic apps), but we’re going to ‘eject’ the app to give us full control.
@@ -42,7 +44,11 @@ It will look like this:
 > npm run ios
 ```
 
+![](/assets/img/medium/rn_2.png)
+
 We should be good to run the app now running **npm run ios**.
+
+![](/assets/img/medium/rn_3.png)
 
 It’s… beautiful…
 
@@ -54,13 +60,23 @@ Now run ~/src/blog/math-quiz/**awsmobile init**
 
 Hit enter for all of the questions. This is going to setup the front-end project (this React Native app) to work with AWS Mobile and create the back-end project on AWS Mobile.
 
+![](/assets/img/medium/rn_4.png)
+
+![](/assets/img/medium/rn_5.png)
+
 Now run **awsmobile console** which will open a new browser window and drop you on your AWS Mobile project. One thing to note, the AWS Mobile CLI is setup to work for both React.js and React Native apps. Some of the command line helpers will work, other won’t. Full list of CLI commands/options are located [here](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/aws-mobile-cli-reference.html).
 
 **Don’t be alarmed to see that your apps area is empty.** Scroll down and you can see by default you can see the following services were added (really the bare minimum for an AWS Mobile app):
 
+![](/assets/img/medium/rn_6.png)
+
 At the top you can click **Analytics** to see what was setup for you in AWS pinpoint, but more interestingly you can click the **Resources** to see what services were configured for you via AWS Mobile.
 
+![](/assets/img/medium/rn_7.png)
+
 Here within **Resources** you can see Pinpoint for analytics, Cognito identity pools for secure app access (not users, we’ll add that later), S3 for files, Cloudfront for distribution and IAM to secure your services/resources.
+
+![](/assets/img/medium/rn_8.png)
 
 Alright, now, let’s add authentication to the app. We’re going to need to setup [AWS Amplify](https://github.com/aws/aws-amplify) in our app for this. AWS Amplify is a library that AWS has built to quickly spin up functionality such as authentication, analytics and file uploads.
 
@@ -78,21 +94,31 @@ At this point, we have basically.. **Nothing**. Hurray. We have a basic shell of
 
 Don’t actually click any of these, once we setup our app with AWS Amplify we’re going to use the AWS Mobile CLI to setup User Sign-in.
 
+![](/assets/img/medium/rn_9.png)
+
 Let’s install AWS Amplify to our react native app. Follow the instructions [here](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/react-native-getting-started.html#react-native-getting-started-configure-aws-amplify). Your App.js should look like this once it’s all done:
+
+![](/assets/img/medium/rn_10.png)
 
 Run the app again to make sure we didn’t blow something up: **npm run ios**
 
 Alright, now that we have AWS Amplify setup in our react native app, let’s hook up the actual functionality. Edit your App.js to look like:
 
+![](/assets/img/medium/rn_11.png)
+
 Run the app again to make sure we didn’t blow something up and to view our sign in page: **npm run ios**
+
+![](/assets/img/medium/rn_12.png)
 
 Now, let’s enable the login on the backend (the form won’t work, since there’s nothing in AWS Mobile hooked up). Run:
 
-```
-**awsmobile user-signin enable --prompt**
+```bash
+awsmobile user-signin enable --prompt
 ```
 
 When prompted, select “**Go to advanced settings”**. Answer the questions like so. If we don’t pass the prompt flag, it ends up setting up 2FA, which we don’t want:
+
+![](/assets/img/medium/rn_13.png)
 
 So at this point we’ve setup AWSAmplify for login on the front end, and configured our project to setup AWSMobile for User-Sign In. Now all we need to do is push those changes up to AWSMobile.
 
@@ -104,15 +130,25 @@ On the push, I received this error: **BadRequestException: MFA configuration can
 
 I ended up going in and editing **math-quiz/awsmobilejs/backend/mobile-hub-project.yml** like so:
 
+![](/assets/img/medium/rn_14.png)
+
 Note the “**mfa-configuration: OFF”**
 
 My **awsmobile push** was successful after that. Now let’s run **awsmobile console** to pop back to our AWSMobile app. Scroll down and now you can see that User Sign-in has been enabled!
 
+![](/assets/img/medium/rn_15.png)
+
 Slick. Let’s try it on the app now. **npm run ios.** Click **Sign Up**, enter your details (the react native app is still asking for all of the information, we’ll fix that in a bit).
+
+![](/assets/img/medium/rn_16.png)
 
 Jump to your email, grab your confirmation code:
 
+![](/assets/img/medium/rn_17.png)
+
 Confirm it:
+
+![](/assets/img/medium/rn_18.png)
 
 Now login!
 
@@ -120,17 +156,26 @@ When I went to login I received the error “**undefined is not an object(evalua
 
 If we rewind back to this page [on AWS](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/react-native-add-user-sign-in.html). It has a note there saying “If your react-native app was not created using create-react-native-app”, so I jumped over it. **Turns out we did need to run it.**
 
+![](/assets/img/medium/rn_19.png)
+
 Let’s run **npm run ios** and we should be able to login.
 
 Woohoo! Logged in.. Or so we think… Let’s display a welcome message with our user name and our access token to prove we’re actually logged in using Cognito.
 
 Update your App.js to look like this:
 
+![](/assets/img/medium/rn_20.png)
+
 We’re going to grab our user from the Auth object (provided by the AWS Amplify library) and the access token, populate the state, and display it in our render function.
 
 Hurray! We’re authorized! Or so we think.. Let’s go make sure. Run **awsmobile console** and click the Resources link. Amazon Cognito User Pools was added when we added the User Sign-in Backend service. **Click the userpool link (**mathquiz\_userpool\_MOBILEHUB\_1237514419 in this case).
 
+![](/assets/img/medium/rn_21.png)
+
 Click “User and groups” and now we can see our user that we created earlier!
+
+![](/assets/img/medium/rn_22.png)
+
 
 And there we have it. We’ve setup up our React Native application on AWS Mobile, with authentication!
 

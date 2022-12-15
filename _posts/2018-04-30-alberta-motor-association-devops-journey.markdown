@@ -11,6 +11,8 @@ Before we get into it, it’s impossible to go from 0 -> DevOps. It takes time t
 
 **DevOps is a journey.**
 
+![](/assets/img/medium/a_1.png)
+
 Where does the journey start? What is the order of events to start to become DevOps? As I’ve taken over teams that don’t have many of the above DevOps capabilities, it’s pretty simple. It starts with the culture.
 
 **Culture**
@@ -22,6 +24,8 @@ I feel the industry is changing for the better, but there’s still a hesitation
 At AMA we’ve engrained the value of unit testing and it’s become part of what we do. To the point where our development teams have become uncomfortable without tests.
 
 **Writing Tests**
+
+![](/assets/img/medium/a_2.png)
 
 It’s not to say there aren’t challenges. Some of our monolithic .NET apps have taken time to get the proper frameworks in place. Our general approach is that but we keep taking small slices of unit tests for each new feature and we’ve grown our test suites over time.
 
@@ -35,13 +39,21 @@ We use various SAAS to run our automated tests. Our test suites vary from integr
 
 For .NET/Dynamics we use Visual Studio Team Studio (VSTS) and their build services. They’re really geared towards supporting the .NET eco-system, so it easily supports what we’re trying to do. It also has some great integration(s) into Azure.
 
+![](/assets/img/medium/a_3.png)
+
 VSTS Build
 
 For Ruby on Rails/NodeJS we use travis-ci. It integrates well with the unix environment that we use to run Ruby on Rails. It’s also had some great hooks into github.
 
+![](/assets/img/medium/a_4.png)
+
 Travis-CITest output from Travis CI
 
+![](/assets/img/medium/a_5.png)
+
 For React Native we use Visual Studio App Centre (formerly HockeyApp). It gives us some great functionality for running tests, replaying them, and troubleshooting build issues.
+
+![](/assets/img/medium/a_6.png)
 
 VS App Centre
 
@@ -55,11 +67,15 @@ Code sitting to be deployed to production is a liability. Once it’s been signe
 
 For .NET/Dynamics we use VSTS to deploy to Azure. That being said, we still have some .NET applications on premise. In general we’re working these applications to the cloud, however, in some cases we run a hybrid where we do the build on VSTS and then deploy manually on premise. The goal here is to have the deployments fully scripted so once we get to Azure we can integrate those scripts (such as CRM solution deployment) into the build process.
 
+![](/assets/img/medium/a_7.png)
+
 VSTS Release — Disregard the ‘no tests’, VSTS doesn’t support .NET Core test integration at the time of writing this. We run the tests via command line in the build phase.
 
 For Ruby on Rails/NodeJS we’ve been debating be using [Github hooks](https://developer.github.com/v3/guides/delivering-deployments/) to deploy our repos once a pull request has been reviewed. Our Ruby on Rails applications have the best test coverage out of any applications, but we had some bad experiences with Jenkins that caused us to be hesitant about automated deploys. We expect to be deploying automatically on PR merge by the end of 2018.
 
 For React Native we use Visual Studio App Centre (formerly HockeyApp). Microsoft had a tool called Code Push that more or less has become the defacto deployment solution for Native JS mobile apps. They’ve integrated it into Visual Studio App Centre. This allows us to do a build, and then deploy the application out. This allows us to continuously deliver applications without Google/Apple app store approval.
+
+![](/assets/img/medium/a_8.png)
 
 **Automated Infrastructure**
 
@@ -84,6 +100,8 @@ Monitoring, alerting and logging are some of the most critical things that your 
 Application error catching, we use [Rollbar](https://rollbar.com/) for Ruby on Rails, [Application Insights](https://azure.microsoft.com/en-us/services/application-insights/) for .NET and [VS App Centre’s Diagnostics](https://docs.microsoft.com/en-us/appcenter/crashes/) for Mobile.
 
 **The Journey Never Ends**
+
+![](/assets/img/medium/a_9.png)
 
 You will not be DevOps over night. In some cases it will take years in to move your systems (or pick new ones) that support DevOps. The goal is to slowly slice off high value pieces, write tests, and hook into a build/deployment pipeline.
 
