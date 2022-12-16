@@ -1,7 +1,8 @@
 ---
 title: "Building a React Native app using AWS Mobile"
 date: 2018-03-27
-categories: [General]
+categories: [Development]
+tags: ['React Native', 'AWS Mobile']
 ---
 
 *   _\*Update May 5th, 2018 — The second part is taking longer than expected due to complications/volatility with the authentication component of AWP Amplify. I’ll be writing a custom login/create screen for the second part._

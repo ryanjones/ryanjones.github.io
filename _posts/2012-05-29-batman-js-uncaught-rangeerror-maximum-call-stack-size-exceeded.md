@@ -1,7 +1,7 @@
 ---
 title: 'batman.js - Uncaught RangeError: Maximum call stack size exceeded'
-categories:
-  - Javascript
+categories: [Development]
+tags: ['CoffeeScript']
 ---
 
 

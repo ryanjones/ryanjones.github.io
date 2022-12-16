@@ -1,7 +1,8 @@
 ---
 title: "Dotenv Gotchas"
 date: 2014-11-13 20:40
-categories: [dotenv, Rails, bash, Gems]
+categories: [Development]
+tags: [dotenv, Rails, bash, Gems]
 description: Every so often you get your ass kicked by something and you just need to write down all of the quirks.
 ---
 

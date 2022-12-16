@@ -1,7 +1,7 @@
 ---
 title: 'Creating Alertzy.com - #Apps4Edmonton'
-categories:
-  - Ruby on Rails
+categories: [Hackathons]
+tags: ['Ruby on Rails']
 ---
 
 

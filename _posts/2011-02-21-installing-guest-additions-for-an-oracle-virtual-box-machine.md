@@ -1,7 +1,6 @@
 ---
 title: Installing Guest Additions for an Oracle Virtual Box Machine
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: CRM 2011 RTM Released as of February 16, 2011
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

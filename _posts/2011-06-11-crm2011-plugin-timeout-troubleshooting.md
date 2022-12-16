@@ -1,7 +1,6 @@
 ---
 title: CRM2011 Plugin Timeout Troubleshooting
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

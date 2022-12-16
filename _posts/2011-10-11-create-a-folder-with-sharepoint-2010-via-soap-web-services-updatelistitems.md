@@ -1,7 +1,6 @@
 ---
 title: 'Create a Folder with SharePoint 2010 via SOAP Web Services - UpdateListItems'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

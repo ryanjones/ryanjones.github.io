@@ -1,7 +1,6 @@
 ---
 title: Creating a Web Application and Share Point 2010 Site
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

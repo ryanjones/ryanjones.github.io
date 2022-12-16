@@ -1,7 +1,6 @@
 ---
 title: 'Creating a Folder on Sharepoint 2010 via Web Service Lists.asmx  and UpdateListItems'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

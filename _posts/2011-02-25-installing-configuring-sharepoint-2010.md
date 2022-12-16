@@ -1,7 +1,6 @@
 ---
 title: Installing / Configuring SharePoint 2010
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

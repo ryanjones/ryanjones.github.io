@@ -1,7 +1,6 @@
 ---
 title: Cannot connect with Document Manager via CRM 2011 to Sharepoint 2010
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

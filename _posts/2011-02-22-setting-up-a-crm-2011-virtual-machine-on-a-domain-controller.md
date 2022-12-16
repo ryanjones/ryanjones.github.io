@@ -1,7 +1,6 @@
 ---
 title: 'Setting up a CRM 2011 Virtual Machine (on a Domain Controller) - Part 1/2'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

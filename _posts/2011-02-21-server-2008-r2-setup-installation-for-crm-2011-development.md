@@ -1,7 +1,6 @@
 ---
 title: 'MS Server 2008 R2 Setup & Installation for CRM 2011 Development'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

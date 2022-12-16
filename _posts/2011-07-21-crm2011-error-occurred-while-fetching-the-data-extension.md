@@ -1,7 +1,6 @@
 ---
 title: 'CRM2011 Reports - Error occurred while fetching the data extension'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

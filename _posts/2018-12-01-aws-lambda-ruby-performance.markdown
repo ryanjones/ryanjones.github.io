@@ -1,7 +1,8 @@
 ---
 title: "AWS Lambda — Ruby Performance"
 date: 2018-12-01
-categories: [General]
+categories: [AWS]
+tags: [Ruby, Performance, 'AWS Lambda']
 ---
 
 ![](/assets/img/medium/l_1.jpeg)

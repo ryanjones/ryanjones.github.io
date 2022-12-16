@@ -1,10 +1,8 @@
 ---
 title: "Hosting Octopress with Amazon S3 and Cloudfront"
 date: 2013-05-13 20:29
-categories:
- - Amazon S3
- - Amazon CloudFront
- - Octopress
+categories: [AWS]
+tags: ['Amazon S3', 'Amazon Cloudfront']
 ---
 
 I recently set up this blog and I figured as my first "real" post I could go through the steps it took to set this up.

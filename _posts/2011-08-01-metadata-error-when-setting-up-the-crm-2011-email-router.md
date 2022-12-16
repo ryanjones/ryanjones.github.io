@@ -1,7 +1,6 @@
 ---
 title: Metadata error when setting up the CRM 2011 Email Router
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

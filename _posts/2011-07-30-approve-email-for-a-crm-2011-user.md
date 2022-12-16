@@ -1,7 +1,6 @@
 ---
 title: Approve Email for a CRM 2011 User
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

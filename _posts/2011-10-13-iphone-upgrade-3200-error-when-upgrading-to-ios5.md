@@ -1,7 +1,6 @@
 ---
 title: iPhone Upgrade 3200 Error when upgrading to iOS5
-categories:
-  - Apple
+categories: [Apple]
 ---
 
 

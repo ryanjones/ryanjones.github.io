@@ -1,7 +1,6 @@
 ---
 title: Installing SQL Server 2008 R2 for CRM 2011 Development
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

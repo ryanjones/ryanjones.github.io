@@ -1,7 +1,6 @@
 ---
 title: 'One or more datasource credentials required to run the report have not been specified - SoapException'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

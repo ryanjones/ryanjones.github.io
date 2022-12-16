@@ -1,7 +1,6 @@
 ---
 title: Changing the CRM 2011 Server Port
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: Check in a file into SharePoint 2010 via SOAP Web Services – CheckInFile
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

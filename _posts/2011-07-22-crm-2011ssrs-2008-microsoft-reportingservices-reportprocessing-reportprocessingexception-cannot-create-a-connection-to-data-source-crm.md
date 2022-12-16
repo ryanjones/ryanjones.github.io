@@ -1,7 +1,6 @@
 ---
 title: 'CRM 2011/SSRS 2008 - Microsoft.ReportingServices.ReportProcessing. ReportProcessingException: Cannot create a connection to data source &#8216;CRM&#8217;.'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

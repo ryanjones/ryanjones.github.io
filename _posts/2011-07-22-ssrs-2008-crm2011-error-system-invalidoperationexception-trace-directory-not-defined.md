@@ -1,7 +1,6 @@
 ---
 title: 'SSRS 2008/CRM 2011 - System.InvalidOperationException: Trace Directory not defined'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

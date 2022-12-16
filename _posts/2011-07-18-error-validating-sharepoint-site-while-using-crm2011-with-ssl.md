@@ -1,7 +1,6 @@
 ---
 title: Error Validating SharePoint Site while using CRM2011 with SSL
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

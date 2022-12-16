@@ -1,7 +1,6 @@
 ---
 title: Download a document from Sharepoint 2010 via WebClient
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

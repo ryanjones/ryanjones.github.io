@@ -3,8 +3,7 @@ title: >
   An error occurred while loading the page. The URL may not have been mapped in
   the SharePoint Server. Ask your system administrator to check the Configure
   alternate access mappings settings in the SharePoint Central Administration.
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: 'Microsoft.Crm.CrmConfigObjectNotFoundException: User Was Not Found'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

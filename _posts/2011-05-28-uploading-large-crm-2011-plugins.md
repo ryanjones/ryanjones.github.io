@@ -1,7 +1,6 @@
 ---
 title: 'Uploading Large CRM 2011 Plugins - Increase CRM 2011 Plugin Upload Size'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: Hooking CRM 2011 and Share Point 2010 together
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

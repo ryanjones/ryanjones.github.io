@@ -1,7 +1,6 @@
 ---
 title: Retrieve Statuscode (Status Reason) Label in CRM2011
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 Here’s a quick snippet on how to get the Status Reason from within a CRM 2011 Plugin. The actual behind the scene name for Status reason is “statuscode”.

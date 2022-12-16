@@ -1,7 +1,6 @@
 ---
 title: Changing CRM 2011 Web Services Port via Deployment Manager
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

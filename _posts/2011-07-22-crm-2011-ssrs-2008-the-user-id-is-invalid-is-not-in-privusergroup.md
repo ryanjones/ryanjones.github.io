@@ -1,7 +1,6 @@
 ---
 title: CRM 2011 / SSRS 2008 The user Id is invalid / is not in PrivUserGroup
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

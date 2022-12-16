@@ -1,7 +1,6 @@
 ---
 title: MVC3 Ninject/Nunit Unit Tests
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 Here’s some example code for MVC 3 & 4 unit tests. Using Ninject/Moq/Nunit/Repositories

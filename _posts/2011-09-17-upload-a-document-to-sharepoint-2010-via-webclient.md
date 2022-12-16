@@ -1,7 +1,6 @@
 ---
 title: Upload a document to Sharepoint 2010 via WebClient
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

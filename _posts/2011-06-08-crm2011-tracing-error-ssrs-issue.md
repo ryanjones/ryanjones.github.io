@@ -1,7 +1,6 @@
 ---
 title: 'CRM2011 Tracing Error - SSRS Issue'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

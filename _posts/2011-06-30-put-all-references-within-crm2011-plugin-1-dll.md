@@ -1,7 +1,6 @@
 ---
 title: Put all references within CRM2011 Plugin (1 DLL)
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 We needed to come up with an alternate solution to ILMerge since we just couldn’t get it to work, or work consistently when creating plugins. We wanted to be able to take 1 .DLL and upload it to the server (via the plugin tool) to the database.

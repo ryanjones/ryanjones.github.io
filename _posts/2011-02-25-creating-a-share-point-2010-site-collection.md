@@ -1,7 +1,6 @@
 ---
 title: Creating a Share Point 2010 Site Collection
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

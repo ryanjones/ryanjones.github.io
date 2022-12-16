@@ -1,7 +1,6 @@
 ---
 title: Automatic migration was not applied because it would result in data loss.
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

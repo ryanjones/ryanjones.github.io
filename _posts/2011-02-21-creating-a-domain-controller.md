@@ -1,7 +1,6 @@
 ---
 title: Creating a Domain Controller
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

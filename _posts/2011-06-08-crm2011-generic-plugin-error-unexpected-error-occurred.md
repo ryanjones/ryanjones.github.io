@@ -1,7 +1,6 @@
 ---
 title: 'CRM2011 Generic Plugin Error - "Unexpected error occurred."'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

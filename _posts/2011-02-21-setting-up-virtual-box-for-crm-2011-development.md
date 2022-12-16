@@ -1,7 +1,6 @@
 ---
 title: Setting up Virtual Box for CRM 2011 Development
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

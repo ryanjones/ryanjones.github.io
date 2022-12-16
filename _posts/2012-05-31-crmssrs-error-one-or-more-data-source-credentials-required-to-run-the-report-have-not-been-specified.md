@@ -1,7 +1,6 @@
 ---
 title: 'CRM/SSRS - Error: One or more data source credentials required to run the report have not been specified.'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 I ran into this error again. I think I’ve got it all figured out. Here’s the excerpt from the log:

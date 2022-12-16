@@ -1,7 +1,8 @@
 ---
 title: "AWS AppSync Calculator"
 date: 2019-03-09
-categories: [General]
+categories: [AWS]
+tags: ['AWS AppSync']
 ---
 
 We’ve been leveraging AWS AppSync more and more recently and it really bugged me that AWS doesn’t have a calculator for it. As you start using more features such as websockets (which they refer to as “real-time data access and updates”) it starts to get really complicated.

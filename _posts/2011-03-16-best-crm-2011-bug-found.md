@@ -1,7 +1,6 @@
 ---
 title: Best CRM 2011 Bug Found?
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

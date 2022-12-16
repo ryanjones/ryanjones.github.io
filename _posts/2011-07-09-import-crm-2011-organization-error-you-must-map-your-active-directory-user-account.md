@@ -1,7 +1,6 @@
 ---
 title: 'Import CRM 2011 Organization Error - You must map your Active Directory user account...'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

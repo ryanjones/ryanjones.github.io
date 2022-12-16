@@ -1,7 +1,8 @@
 ---
 title: "Improving your Ruby code base"
 date: 2014-11-23 19:32
-categories: [Ruby, Rails, Code, Improvement]
+categories: [Engineering Leadership]
+tags: [Ruby, Rails, Improvement]
 description: Everyone has inherited a codebase that was in dire need of a re-write (at least a portion of it). If you haven't, consider yourself one of the lucky few.
 ---
 

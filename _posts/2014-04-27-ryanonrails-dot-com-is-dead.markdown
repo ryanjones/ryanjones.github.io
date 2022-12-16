@@ -1,7 +1,7 @@
 ---
 title: "RyanonRails.com is dead, long live ryanjones.io!"
 date: 2014-04-27 11:26
-categories: General
+categories: [Random]
 ---
 
 I've decided to move away from ryanonrails.com and move over to ryanjones.io. When I first picked ryanonrails.com

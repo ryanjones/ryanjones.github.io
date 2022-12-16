@@ -1,7 +1,6 @@
 ---
 title: 'Birth Control Reminder Text (SMS) Free - Alertzy.com - Canada & USA'
-categories:
-  - Alertzy
+categories: [Hackathons]
 ---
 
 

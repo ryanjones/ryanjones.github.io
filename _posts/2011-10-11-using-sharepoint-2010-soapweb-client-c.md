@@ -1,7 +1,6 @@
 ---
 title: 'Using Sharepoint 2010 SOAP/Web Client - C#'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

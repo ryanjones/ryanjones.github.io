@@ -1,7 +1,7 @@
 ---
 title: isToasterOven?
-categories:
-  - SmallTalk
+categories: [Development]
+tags: ['Smalltalk']
 ---
 
 

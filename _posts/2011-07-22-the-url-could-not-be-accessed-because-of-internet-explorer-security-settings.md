@@ -1,7 +1,6 @@
 ---
 title: The URL could not be accessed because of Internet Explorer security settings
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

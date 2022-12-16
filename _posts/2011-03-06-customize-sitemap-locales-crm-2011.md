@@ -1,7 +1,6 @@
 ---
 title: 'Customize Sitemap Locales - CRM 2011'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

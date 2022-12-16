@@ -1,7 +1,7 @@
 ---
 title: "Blog upgrade!"
 date: 2013-05-12 15:20
-categories: General
+categories: [Random]
 ---
 
 I haven't been blogging for the past year or so, and I hope to change that soon.

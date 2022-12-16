@@ -1,7 +1,6 @@
 ---
 title: 'Installing CRM 2011 / Share Point 2010 / CRM 2011 List Component - Part 2/2'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

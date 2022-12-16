@@ -1,7 +1,6 @@
 ---
 title: Installing CRM RTM 2011 for Development
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: 'MVC3 - Make sure that the controller has a parameterless public constructor.'
-categories:
-  - Microsoft / CRM / SharePoint / SSRS
+categories: [Microsoft]
 ---
 
 I recently ran into this issue when I was accessing my WEBapi controller. I’m actually using MVC4, but I have ran into the same error in both MVC3 and MVC4.
