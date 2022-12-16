@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hey, I'm Ryan! This is where I like to write about things related to programming and engineering leadership.
+Hey, I'm Ryan! This is where I like to write about things related to software development and engineering leadership.
 
 ## List of projects/hackathons
 
