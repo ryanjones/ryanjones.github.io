@@ -9,7 +9,7 @@ We’ve been leveraging AWS AppSync more and more recently and it really bugged 
 
 I was doing it through an excel spreadsheet but recently I created a small react.js app deployed on AWS Amplify Console.
 
-Feel free to check it out here: [https://micro-serverless.com/appsync-calc](https://micro-serverless.com/appsync-calc)
+You'll have to download and setup the github repo to view the demo as the demo site has been deprecated.
 
 ![Getting started](/assets/img/medium/c_1.png)
 
