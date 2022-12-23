@@ -2,7 +2,7 @@
 layout: post
 title: Re-enable face id for Apple's family sharing
 date: 2022-12-22 20:36 -0700
-category: [Apple, Random]
+category: [Apple]
 ---
 
 When Face ID first came out I still preferred entering my password for app store purchases. It just felt more safe/secure. As time went on my trust built in Face ID and I use it wherever possible. We use Apple's Family Sharing feature which allows the kids to request apps from the app store and then I can approve their purchases on my phone.
