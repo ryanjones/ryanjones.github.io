@@ -1,6 +1,6 @@
 ---
 title: 'Build gems that require native extensions on Windows - Install gems in Windows with builds tools via MinGW'
-categories: [Development]
+categories: [Software Engineering]
 tags: ['Ruby on Rails']
 ---
 

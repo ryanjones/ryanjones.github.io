@@ -1,6 +1,6 @@
 ---
 title: 'batman.js - Uncaught TypeError: Cannot call method "dispatch" of undefined'
-categories: [Development]
+categories: [Software Engineering]
 tags: ['CoffeeScript']
 ---
 

@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hey, I'm Ryan! This is where I like to write about things related to software development and engineering leadership.
+Hey, I'm Ryan! This is where I like to blog/write about things related to software engineering and software engineering leadership. I currently reside in Edmonton, AB, Canada. I lead an amazing software engineering team at [Jobber](https://getjobber.com/) as the VP of Software Engineering.
 
 ## List of projects/hackathons
 

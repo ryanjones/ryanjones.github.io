@@ -1,6 +1,6 @@
 ---
 title: 'batman.js - Data not being submitted to server on create (POST)'
-categories: [Development]
+categories: [Software Engineering]
 tags: ['CoffeeScript']
 ---
 

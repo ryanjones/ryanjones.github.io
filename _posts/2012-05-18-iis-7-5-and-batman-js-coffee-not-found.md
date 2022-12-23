@@ -1,6 +1,6 @@
 ---
 title: 'IIS 7.5 and batman.js - .coffee not found'
-categories: [Development]
+categories: [Software Engineering]
 tags: ['CoffeeScript']
 ---
 

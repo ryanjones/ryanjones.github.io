@@ -1,7 +1,7 @@
 ---
 title: "Alberta Motor Association’s DevOps Journey"
 date: 2018-04-30
-categories: [Engineering Leadership]
+categories: [Software Engineering Leadership]
 tags: [DevOps, CI, CD, Testing]
 ---
 We’ve been doing DevOps at AMA for about 4–5 years now. Some teams are farther along than others, however, we’re all pointed in the same direction. If you’re unsure as to what DevOps is take a quick peek here: [https://www.visualstudio.com/learn/what-is-devops/](https://www.visualstudio.com/learn/what-is-devops/)

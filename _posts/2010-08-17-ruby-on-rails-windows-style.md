@@ -1,6 +1,6 @@
 ---
 title: 'Ruby on Rails - Windows Style'
-categories: [Development]
+categories: [Software Engineering]
 tags: ['Ruby on Rails', 'Windows']
 ---
 

@@ -21,7 +21,7 @@ timezone:
 
 title: Ryan Jones                          # the main title
 
-tagline: A mix of programming and engineering leadership   # it will display as the sub-title
+tagline: A mix of programming and software engineering leadership   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A variety of topics that I've spent time on over my career. 
@@ -177,7 +177,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs: [Software Engineering]
 
 exclude:
   - '*.gem'

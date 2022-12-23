@@ -1,6 +1,6 @@
 ---
 title: isToasterOven?
-categories: [Development]
+categories: [Software Engineering]
 tags: ['Smalltalk']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Building a React Native app using AWS Mobile"
 date: 2018-03-27
-categories: [Development]
+categories: [Software Engineering]
 tags: ['React Native', 'AWS Mobile']
 ---
 

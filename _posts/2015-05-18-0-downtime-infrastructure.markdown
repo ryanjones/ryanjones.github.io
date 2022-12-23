@@ -1,7 +1,7 @@
 ---
 title: "0 Downtime Infrastructure"
 date: 2015-05-18 19:01
-categories: [Engineering Leadership]
+categories: [Software Engineering Leadership]
 Tags: [Devops, Uptime, 0 Downtime]
 description: No one should ever try and visit a web page and find that it's down for maintenance. This is how we keep AMA websites up 100% of the time.
 ---

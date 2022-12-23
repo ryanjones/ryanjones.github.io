@@ -1,6 +1,6 @@
 ---
 title: Redirect (Refresh) your current page
-categories: [Development]
+categories: [Software Engineering]
 tags: ['Ruby on Rails']
 ---
 

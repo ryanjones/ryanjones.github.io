@@ -1,6 +1,6 @@
 ---
 title: Error installing redcar? Install Java!
-categories: [Development]
+categories: [Software Engineering]
 tags: ['Ruby on Rails']
 ---
 

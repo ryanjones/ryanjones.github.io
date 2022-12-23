@@ -1,6 +1,6 @@
 ---
 title: 'Eco (Embedded Coffee Script) Error - Unexpected dedent'
-categories: [Development]
+categories: [Software Engineering]
 tags: ['Javascript']
 ---
 

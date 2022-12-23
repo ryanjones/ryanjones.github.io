@@ -1,6 +1,6 @@
 ---
 title: Ruby + Rails Stops Responding on Windows
-categories: [Development]
+categories: [Software Engineering]
 tags: ['Ruby on Rails']
 ---
 
