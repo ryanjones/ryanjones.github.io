@@ -23,3 +23,4 @@ gem "webrick", "~> 1.7"
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
+gem 'eventmachine', git: 'https://github.com/eventmachine/eventmachine.git', branch: 'master'
