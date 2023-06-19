@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Jobber's React Native migration - Success
+title: Jobber's React Native migration - Success!
 date: 2023-06-19 15:05 -0600
 category: ['React Native', 'Jobber' ]
 ---
-
-## Intro
 
 ![Jobber](/assets/img/2023/react-native-migration/jobber_logo.png)
 
