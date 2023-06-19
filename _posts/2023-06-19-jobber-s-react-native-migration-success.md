@@ -3,6 +3,7 @@ layout: post
 title: Jobber's React Native migration - Success!
 date: 2023-06-19 15:05 -0600
 category: ['React Native', 'Jobber' ]
+description: "An in depth walkthrough of how migrated Jobber's mobile app from ember.js to React Native."
 ---
 
 ![Jobber](/assets/img/2023/react-native-migration/jobber_logo.png)
