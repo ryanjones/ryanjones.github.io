@@ -239,6 +239,6 @@ And, we went from deploying our app every few weeks to shipping a new version ev
 ## Closing
 I’m incredibly proud of the team and what we’ve delivered. Our customers love the new mobile app and we’ve already shipped a ton of new features in record time! Check out our [changelog](https://productupdates.getjobber.com/) (Mobile App).
 
-We have a lot of future plans for Jobber’s mobile and online offering. Enjoy React? React Native? GraphQL? Rails? Helping small businesses? [Come join us at Jobber](https://getjobber.com/about/careers/#open-positions)! We just [raised a Series D](https://betakit.com/jobber-closes-100-million-usd-series-d-amid-strong-demand-for-home-services/) to grow the business and become the #1 market leader in the home services space.
+We have a lot of future plans for Jobber’s mobile and online offering. Enjoy React? React Native? GraphQL? Rails? Helping small businesses? [Come join us at Jobber](https://getjobber.com/about/careers/#open-positions?utm_source=boolca&utm_medium=social&utm_campaign=eng_blog)! We just [raised a Series D](https://betakit.com/jobber-closes-100-million-usd-series-d-amid-strong-demand-for-home-services/) to grow the business and become the #1 market leader in the home services space.
 
 Thanks for reading! Want to chat? Click on the links in the sidebar and drop me a line on your platform of choice.
