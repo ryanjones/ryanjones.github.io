@@ -174,13 +174,12 @@ It’s been a few months since we’ve launched and now it’s time to present t
 * Holding well above 99.9% crash free sessions - a lack of observability between the previous app confounds direct comparison, but we are confident we were well below this threshold.
 * Since launch, this has further improved from ~99.95 to ~99.98.
 3. We have improved the user experience for our SPs ✅
-TODO
 * App store
 * All of our app store ratings are at, and remain at, an all time high
   * Android (Google Play) 🇺🇸 4.4 -> 4.8 
   * Android (Google Play) 🇨🇦 4.1 -> 4.3
   * iOS (App Store) 🇺🇸 4.6 -> 4.7
-  * iOS (App Store) 🇨🇦4.5 -> 4.6
+  * iOS (App Store) 🇨🇦 4.5 -> 4.6
 * [AARRR metrics](https://www.productplan.com/glossary/aarrr-framework/)
   * Approved across the board (very large improvements in activation and conversion metrics)
 4. Our calendar is more powerful ✅  
